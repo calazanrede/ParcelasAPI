@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace ParcelasAPI
 {
+    //testando commit 
     public class Program
     {
         public static void Main(string[] args)
@@ -21,6 +22,7 @@ namespace ParcelasAPI
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+    
                 });
     }
 }
